@@ -6,21 +6,21 @@
   object name, diet, weight, length, period
 */
 
-tyrannosaurus = {
+const tyrannosaurus = {
   diet: 'carnivorous',
   weight: '7000kg',
   length: '12m',
   period: 'Late Cretaceous',
   }
 
-stegosaurus = {
+const stegosaurus = {
   diet: 'herbivorous',
   weight: '2000kg'
   length: '9m',
   period: 'Late Jurassic',
   }
 
-velociraptor = {
+const velociraptor = {
   diet: 'carnivorous',
   weight: '15kg',
   length: '1.8m',
@@ -36,27 +36,28 @@ velociraptor = {
 
 // How much did tyrannosaurus weigh?
 weight(){
-  console.log();
+  console.log(`The ${tyrannosaurus.name} weighs ${tyrannosaurus.weight}`);
 }
 
 // What was the diet of a velociraptor?
-diet(){
-  console.log();
+diet(){ 
+  console.log(`The ${velociraptor.name} has a ${stegosaurus.diet}`);
+  
 }
-
 
 // How long was a stegosaurus?
 length(){
-  console.log();
+  console.log(`The ${stegosaurus.name} is ${stegosaurus.length}`);
 }
 
 // What time period did tyrannosaurus live in?
 period(){
-console.log();
+console.log(`The ${tyrannosaurus.name} lived in the ${tyrannosaurus.period}`);
 }
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
-console.log();
+roar(){
+  console.log();
 
 
 // ==== Arrays ====
