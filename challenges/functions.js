@@ -24,8 +24,7 @@
 // ==== Closures ==== 
 
 // Explain in your own words why `nestedfunction()` can access the variable `internal`.
-
-// Explanation: 
+Explanation: `The nestedfunction() can access the variable 'internal' because of the closure principle. As such, it is able to access the outside environment from within its nested position in the parent function myFunction.`
 
 
 const external = "I'm outside the function";
